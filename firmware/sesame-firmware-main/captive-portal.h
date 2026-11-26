@@ -402,6 +402,8 @@ const char index_html[] PROGMEM = R"rawliteral(
           <button class="btn-pose" onclick="pose('shrug')">Shrug</button>
           <button class="btn-pose" onclick="pose('dead')">Dead</button>
           <button class="btn-pose" onclick="pose('crab')">Crab</button>
+          
+          <button class="btn-pose" onclick="pose('pissright')">Piss</button>
         </div>
       </div>
     </div>
@@ -412,7 +414,7 @@ const char index_html[] PROGMEM = R"rawliteral(
         <div class="section-title">System</div>
         <button class="btn-settings" onclick="openSettings()">Settings</button>
         <div style="margin-top: 15px;">
-          <div id="gamepadStatus" class="gamepad-status">Gamepad disconnected</div>
+  
         </div>
       </div>
     </div>
